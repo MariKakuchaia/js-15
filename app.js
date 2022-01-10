@@ -30,7 +30,7 @@ switch(currentDay){
 
 
 //2. დაწერეთ for ციკლი 0 დან 100 - მდე
-for(i=0; i<100; i++){
+for(let i=0; i<100; i++){
     console.log(i);
 }
 
@@ -56,7 +56,7 @@ while(numbers<150);
 //ამ მსაივში ჩაწერეთ ინდექსი გამრავლებული ინდექსზე (i * i) მასივში ჩაწრა ხდება push მეთოდის საშუალებით ლექციის ფაილში გვიწერია.
 
 let array = [];
-for(i=1; i<10000; i++){
+for(let i=1; i<10000; i++){
     array.push(i*i);
 }
 console.log(array);
